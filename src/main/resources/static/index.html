@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connected Users</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/index.css">
+</head>  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+<div class="container">
+  <div class="image-container">
+    <img src="https://erepublic.brightspotcdn.com/dims4/default/c52bc49/2147483647/strip/true/crop/2423x1263+0+193/resize/840x438!/format/webp/quality/90/?url=http%3A%2F%2Ferepublic-brightspot.s3.us-west-2.amazonaws.com%2Fbf%2F0d%2F0a3433a9587b2d5cd3327841a954%2Fvirtual-meetings-l.jpg" alt="Image">
+  </div>
+
+  <div class="main">
+    <div class="new-meeting">
+      <button id="newMeetingBtn">Create a New Meeting</button>
+      <div class="join-meeting">
+        <input type="text" placeholder="Meeting ID" id="meetingName">
+        <button id="joinMeetingBtn">Join</button>
+      </div>
+    </div>
+    <div class="connected-users">
+      <button id="logoutBtn">Logout</button>
+      <h2>Connected Users</h2>
+      <ul id="userList"></ul>
+    </div>
+  </div>
+</div>
+<script src="/js/index.js"></script>
+</body>
+</html>
