@@ -18,7 +18,7 @@ function handleRegistrationForm(event) {
   };
 
   //calling registration Controller
-    fetch('http://localhost:8080/api/vd1/users/register',{
+    fetch('https://video-calling-application-3o55.onrender.com/api/vd1/users/register',{
       method:'POST',
       headers:{'Content-Type':'application/json'},
       body:JSON.stringify(user)

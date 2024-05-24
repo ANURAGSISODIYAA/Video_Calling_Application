@@ -11,7 +11,7 @@ function handleLogin(event) {
     };
 
 
-    fetch('http://localhost:8080/api/vd1/users/login', {
+    fetch('https://video-calling-application-3o55.onrender.com/api/vd1/users/login', {
       method:'POST',
       headers:{ 'content-Type':'application/json'},
       body: JSON.stringify(user)
